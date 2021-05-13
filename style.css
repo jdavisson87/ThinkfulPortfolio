@@ -101,14 +101,46 @@ main {
   font-size: 68px;
 }
 
-.text-ctr > p {
+.text-ctr > p,
+.text-ctr > span,
+.text-ctr > a {
   font-size: 34px;
+}
+
+.text-ctr a {
+  text-decoration: none;
+  color: #2d76c6;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+.text-ctr a:hover {
+  color: #00274a;
+  background: #9ed2ff;
+  border-radius: 5px;
 }
 
 /* contact me section */
 
 #contact-me h2 {
   font-size: 54px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links a,
+.social-links span {
+  font-size: 34px;
+  margin: 5px;
+  padding: 0;
+}
+
+.link-ctr {
+  display: flex;
+  flex-direction: column;
 }
 
 /* footer  */
