@@ -193,11 +193,7 @@ main {
   list-style: none;
 }
 
-.social-icons > li {
-  transition: 0.3s;
-}
-
-.social-icons > li:hover {
+.social-icons li:hover {
   color: #00274a;
   background: #9ed2ff;
   border-radius: 5px;
@@ -208,6 +204,14 @@ main {
   height: 80px;
   margin: auto;
   padding: 5px;
+  transition: 0.3s;
+}
+
+.social-media-img:hover {
+  color: #00274a;
+  background: #9ed2ff;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* footer  */
@@ -228,27 +232,32 @@ footer > h3 {
 
 /* links */
 
-a {
-  text-decoration: none;
-  color: #2d76c6;
-  transition: 0.3s;
+.text-ctr > p > a,
+.text-ctr > span > a {
   padding: 5px;
   transition: 0.3s;
+  color: #2d76c6;
 }
 
-a:hover {
+.text-ctr > p > a:visited,
+.text-ctr > span > a:visited {
+  color: #00274a;
+}
+
+.text-ctr > p > a:hover,
+.text-ctr span > a:hover {
   color: #00274a;
   background: #9ed2ff;
   border-radius: 5px;
 }
 
-a:active {
+.text-ctr > p > a:active,
+.text-ctr > span > a:active {
+  background: #00274a;
+  color: #9ed2ff;
+  border-radius: 5px;
 }
 
-a:visited {
-  text-decoration: underline;
-  text-transform: uppercase;
-}
 /* resize */
 
 @media screen and (max-width: 1000px) {
