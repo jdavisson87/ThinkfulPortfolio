@@ -114,6 +114,7 @@ main {
   height: inherit;
   margin: 40px;
   max-height: 485px;
+  min-width: 450px;
 }
 
 /* About Me section */
@@ -121,7 +122,7 @@ main {
 .portrait-ctr {
   width: 30%;
   height: inherit;
-  margin: 20px;
+  margin: 45px 20px;
 }
 
 .portrait {
@@ -145,7 +146,7 @@ main {
 }
 
 .text-ctr > h2 {
-  font-size: 68px;
+  font-size: 54px;
   margin-left: 35px;
 }
 
@@ -164,10 +165,6 @@ main {
 }
 
 /* contact me section */
-
-#contact-me h2 {
-  font-size: 54px;
-}
 
 .social-links {
   display: flex;
@@ -227,16 +224,23 @@ footer > h3 {
 }
 /* resize */
 
-@media screen and (max-width: 800px) {
-  header h1 {
-    font-size: 34px;
+@media screen and (max-width: 1000px) {
+  .logo-ctr h1 {
+    font-size: 36px;
   }
 
-  header h2 {
+  .text-ctr h2 {
+    font-size: 24px;
+  }
+
+  .text-ctr p,
+  .text-ctr span,
+  .link-ctr span {
     font-size: 18px;
   }
 
-  nav a {
-    font-size: 16px;
+  .social-media-img {
+    width: 40px;
+    height: 40px;
   }
 }
