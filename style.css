@@ -157,11 +157,11 @@ main {
   margin-left: 50px;
 }
 
-.text-link {
-  text-decoration: none;
-  color: #2d76c6;
-  transition: 0.3s;
-  padding: 5px;
+.hobbies-list {
+  width: 35%;
+  align-self: center;
+  text-align: center;
+  font-size: 34px;
 }
 
 /* contact me section */
@@ -193,23 +193,21 @@ main {
   list-style: none;
 }
 
+.social-icons > li {
+  transition: 0.3s;
+}
+
+.social-icons > li:hover {
+  color: #00274a;
+  background: #9ed2ff;
+  border-radius: 5px;
+}
+
 .social-media-img {
   width: 80px;
   height: 80px;
   margin: auto;
   padding: 5px;
-}
-
-.hover-background {
-  /* allows the background to gradually change when hovering over the icon/text */
-  transition: 0.3s;
-}
-
-.hover-background:hover {
-  /* changes the background when the user has the mouse over targeted area */
-  color: #00274a;
-  background: #9ed2ff;
-  border-radius: 5px;
 }
 
 /* footer  */
@@ -227,6 +225,30 @@ footer > h3 {
   color: #9ed2ff;
   line-height: 100%;
 }
+
+/* links */
+
+a {
+  text-decoration: none;
+  color: #2d76c6;
+  transition: 0.3s;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #00274a;
+  background: #9ed2ff;
+  border-radius: 5px;
+}
+
+a:active {
+}
+
+a:visited {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
 /* resize */
 
 @media screen and (max-width: 1000px) {
@@ -240,7 +262,8 @@ footer > h3 {
 
   .text-ctr p,
   .text-ctr span,
-  .link-ctr span {
+  .link-ctr span,
+  .hobbies-list {
     font-size: 18px;
   }
 
