@@ -110,11 +110,10 @@ main {
 /* Welcome Section */
 
 .austin-img {
-  width: 50%;
+  width: 90%;
   height: inherit;
   margin: 40px;
   max-height: 485px;
-  min-width: 450px;
 }
 
 /* About Me section */
@@ -146,15 +145,15 @@ main {
 }
 
 .text-ctr > h2 {
+  margin-left: 25px;
   font-size: 54px;
-  margin-left: 35px;
 }
 
 .text-ctr > p,
 .text-ctr > span,
 .text-ctr > a {
   font-size: 34px;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .hobbies-list {
@@ -262,6 +261,19 @@ footer > h3 {
 /* resize */
 
 @media screen and (max-width: 1000px) {
+  #about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portrait-ctr {
+    width: 200px;
+    margin: 45px 0px;
+  }
+  #about-me p {
+    width: 90%;
+  }
+
   .logo-ctr h1 {
     font-size: 36px;
   }
