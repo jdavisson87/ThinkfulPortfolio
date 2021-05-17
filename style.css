@@ -177,6 +177,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 
 .link-ctr span {
@@ -233,15 +234,15 @@ footer > h3 {
 /* links */
 
 .text-ctr > p > a,
-.text-ctr > span > a {
+.text-ctr span > a {
   padding: 5px;
   transition: 0.3s;
-  color: #2d76c6;
+  color: #2d79c6;
 }
 
 .text-ctr > p > a:visited,
-.text-ctr > span > a:visited {
-  color: #00274a;
+.text-ctr span > a:visited {
+  color: rgb(125, 85, 206);
 }
 
 .text-ctr > p > a:hover,
@@ -252,7 +253,7 @@ footer > h3 {
 }
 
 .text-ctr > p > a:active,
-.text-ctr > span > a:active {
+.text-ctr span > a:active {
   background: #00274a;
   color: #9ed2ff;
   border-radius: 5px;
