@@ -188,6 +188,11 @@ main {
   text-decoration: none;
 }
 
+.social-icons {
+  display: flex;
+  list-style: none;
+}
+
 .social-media-img {
   width: 80px;
   height: 80px;
